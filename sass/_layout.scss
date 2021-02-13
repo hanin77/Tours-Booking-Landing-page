@@ -29,11 +29,14 @@
 .sidebar {
     background-color: var(--color-Grey-dark-1);
     flex: 0 0 18%;
-    }
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column nowrap;
+}
            
 .hotel-view {
     background-color: var(--color-Grey-light-3);
-    flex-grow: 3;
+    flex-grow: 1;
 }
         
 
