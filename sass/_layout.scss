@@ -23,7 +23,7 @@
 .content {
     display: flex;
     flex-direction: row;
-    height: 100vh;
+    
 }
 
 .sidebar {
@@ -38,6 +38,26 @@
     background-color: var(--color-Grey-light-3);
     flex-grow: 1;
     
+}
+
+.detail {
+    display: flex;
+    padding: 4.5rem;
+    background-color: var(--color-Grey-light-1);
+    border-bottom: var(--line);
+}
+
+.description {
+    background-color: #fff;
+    flex: 0 0 60%;
+    margin-right: 4.5rem;
+    box-shadow: var(--shadow-light);
+    padding: 3rem;
+}
+
+.user-reviews {
+    flex: 1;
+
 }
         
 
